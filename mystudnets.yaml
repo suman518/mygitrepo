@@ -1,0 +1,21 @@
+---
+- mystudents: 
+   -  name: anil
+      phno: 96768855885
+      address: guntr
+
+   -  name: sunil
+      phno: 98568555
+      address: guntr
+
+   -  name: rsjedh
+      phno: 8598596655
+      address: 
+        door no: 2-97
+        pincode: 522409
+        street: 
+            strret1: strrrt1
+            street2: street2
+        village: guntur
+        city: guntur 
+        ststate: AP   

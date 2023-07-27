@@ -1,0 +1,8 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: Remove Webserver from all ansible nodes]\
+    apt:
+     name: apache2
+     state: absent

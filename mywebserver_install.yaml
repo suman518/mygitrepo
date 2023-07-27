@@ -1,0 +1,8 @@
+---
+- hosts: all
+  become: yes
+  tasks: 
+   - name: Install webserver on all ansible  nodes
+     apt: 
+      name: apache2
+      state: present
